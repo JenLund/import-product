@@ -1,0 +1,2738 @@
+{
+  "type": "object",
+  "x-examples": {
+    "Example 1": {
+      "productCode": "CRU",
+      "productKey": "CRU~1",
+      "selected": false,
+      "attributes": [
+        {
+          "name": "clientFinanceOwnershipCode",
+          "value": "RET"
+        },
+        {
+          "name": "INSTANT_PURCHASE",
+          "value": "false"
+        },
+        {
+          "name": "PAY_DEPOSIT_NOW",
+          "value": "false"
+        },
+        {
+          "name": "PAY_LATER",
+          "value": "false"
+        },
+        {
+          "name": "isManualItem",
+          "value": "true"
+        },
+        {
+          "name": "totalPriceAsCommission",
+          "value": "false"
+        },
+        {
+          "name": "nonCalculatedOverrideCommissionRate",
+          "value": "0.0"
+        },
+        {
+          "name": "lastMinuteBooking",
+          "value": "false"
+        }
+      ],
+      "summary": {
+        "availabilityStatus": "QUOTE",
+        "productStatus": "QUOTE",
+        "productType": "CRU",
+        "name": "Royal Caribbean International",
+        "highlight": "Royal Caribbean International",
+        "serviceStartDate": "2024-07-27",
+        "serviceEndDate": "2024-08-01",
+        "duration": 5,
+        "durationType": "NIGHTS",
+        "travelDates": {
+          "startDate": "2024-07-27",
+          "endDate": "2024-08-01"
+        },
+        "travelDuration": {
+          "duration": 5,
+          "travelDuration": -1,
+          "durationType": "NIGHTS"
+        },
+        "recommended": false,
+        "specialOffer": false,
+        "itemSource": "RET",
+        "totalPrice": 2419.52,
+        "discount": 0,
+        "priceBeforeDiscount": 2419.52,
+        "startTime": "2024-07-27T16:00:00",
+        "endTime": "2024-08-01T07:00:00",
+        "travelTimes": {
+          "startTime": "2024-07-27T16:00:00",
+          "endTime": "2024-08-01T07:00:00",
+          "embarkationTime": 0
+        },
+        "totalAmendCharges": 0,
+        "totalCancellationCharges": 0,
+        "vipBooking": false
+      },
+      "detail": {
+        "ship": {
+          "code": "369",
+          "name": "Liberty of the Seas"
+        },
+        "cruiseDestination": {},
+        "cruiseLine": {
+          "code": "RCI",
+          "name": "Royal Caribbean International"
+        },
+        "departurePort": {
+          "code": "362",
+          "name": "New York (Cape Liberty), NJ, United States"
+        },
+        "arrivalPort": {
+          "code": "362",
+          "name": "New York (Cape Liberty), NJ, United States"
+        },
+        "departureDestination": {
+          "cityCode": "NYC",
+          "cityName": "New York City New York",
+          "countryCode": "US"
+        },
+        "arrivalDestination": {
+          "cityCode": "NYC",
+          "cityName": "New York City New York",
+          "countryCode": "US"
+        },
+        "itinerary": {
+          "code": "2017515",
+          "name": "Bermuda",
+          "itineraryDetail": "",
+          "shipName": "Liberty of the Seas",
+          "shipNo": 12,
+          "duration": 5,
+          "sailingStartNextDay": false,
+          "itineraryItems": [
+            {
+              "itemNo": 1,
+              "fromDay": 1,
+              "toDay": 0,
+              "departureTime": 1600,
+              "boardTime": 0,
+              "arrivalTime": 0,
+              "description": "New York (Cape Liberty), NJ, United States",
+              "port": {
+                "code": "362",
+                "name": "New York (Cape Liberty), NJ, United States",
+                "nearestAirports": [],
+                "nearestCities": [
+                  {
+                    "code": "NYC",
+                    "preferred": true
+                  }
+                ]
+              },
+              "h2hDepartureDate": "2024-07-27",
+              "h2hArrivalDate": "2024-07-27",
+              "h2HDepartureDate": "2024-07-27",
+              "h2HArrivalDate": "2024-07-27"
+            },
+            {
+              "itemNo": 1,
+              "fromDay": 2,
+              "toDay": 0,
+              "departureTime": 0,
+              "boardTime": 0,
+              "arrivalTime": 0,
+              "description": "Cruising",
+              "h2hDepartureDate": "2024-07-28",
+              "h2hArrivalDate": "2024-07-28",
+              "h2HDepartureDate": "2024-07-28",
+              "h2HArrivalDate": "2024-07-28"
+            },
+            {
+              "itemNo": 1,
+              "fromDay": 3,
+              "toDay": 0,
+              "departureTime": 0,
+              "boardTime": 0,
+              "arrivalTime": 1000,
+              "description": "Royal Naval Dockyard, Bermuda",
+              "port": {
+                "code": "5610",
+                "name": "Royal Naval Dockyard, Bermuda",
+                "nearestAirports": [],
+                "nearestCities": [
+                  {
+                    "code": "BDA",
+                    "preferred": true
+                  }
+                ]
+              },
+              "h2hDepartureDate": "2024-07-29",
+              "h2hArrivalDate": "2024-07-29",
+              "h2HDepartureDate": "2024-07-29",
+              "h2HArrivalDate": "2024-07-29"
+            },
+            {
+              "itemNo": 1,
+              "fromDay": 4,
+              "toDay": 0,
+              "departureTime": 1700,
+              "boardTime": 0,
+              "arrivalTime": 0,
+              "description": "Royal Naval Dockyard, Bermuda",
+              "port": {
+                "code": "5610",
+                "name": "Royal Naval Dockyard, Bermuda",
+                "nearestAirports": [],
+                "nearestCities": [
+                  {
+                    "code": "BDA",
+                    "preferred": true
+                  }
+                ]
+              },
+              "h2hDepartureDate": "2024-07-30",
+              "h2hArrivalDate": "2024-07-30",
+              "h2HDepartureDate": "2024-07-30",
+              "h2HArrivalDate": "2024-07-30"
+            },
+            {
+              "itemNo": 1,
+              "fromDay": 5,
+              "toDay": 0,
+              "departureTime": 0,
+              "boardTime": 0,
+              "arrivalTime": 0,
+              "description": "Cruising",
+              "h2hDepartureDate": "2024-07-31",
+              "h2hArrivalDate": "2024-07-31",
+              "h2HDepartureDate": "2024-07-31",
+              "h2HArrivalDate": "2024-07-31"
+            },
+            {
+              "itemNo": 1,
+              "fromDay": 6,
+              "toDay": 0,
+              "departureTime": 0,
+              "boardTime": 0,
+              "arrivalTime": 700,
+              "description": "New York (Cape Liberty), NJ, United States",
+              "port": {
+                "code": "362",
+                "name": "New York (Cape Liberty), NJ, United States",
+                "nearestAirports": [],
+                "nearestCities": [
+                  {
+                    "code": "NYC",
+                    "preferred": true
+                  }
+                ]
+              },
+              "h2hDepartureDate": "2024-08-01",
+              "h2hArrivalDate": "2024-08-01",
+              "h2HDepartureDate": "2024-08-01",
+              "h2HArrivalDate": "2024-08-01"
+            }
+          ]
+        },
+        "retrievedBooking": false,
+        "superCategories": [],
+        "airCitySelected": false,
+        "destination": {
+          "countryName": ""
+        },
+        "additionalInfo": {
+          "nonRefundable": false,
+          "nonAmendable": false,
+          "provisional": false,
+          "preference": 0,
+          "bookedAsQuote": true,
+          "activeForQuote": true,
+          "paySupplierDirect": false,
+          "nonCommissionableDiscount": 0
+        },
+        "paymentScheduleInfo": {
+          "manuallyOverridable": true,
+          "manuallyUpdated": false
+        }
+      },
+      "metaInfo": {
+        "result": {
+          "holidayTemplateId": 0,
+          "compositionId": 0,
+          "itineraryItemNo": -1,
+          "cfScore": 0,
+          "gridNo": 0,
+          "gridType": 0,
+          "itineraryNo": 0,
+          "itineraryOrder": 1,
+          "holidayId": 0,
+          "pkgId": -1,
+          "resultNo": 0,
+          "swapItemNo": 0,
+          "promo": false,
+          "optionalItineraryItem": false
+        }
+      },
+      "source": {
+        "supplier": {
+          "id": 2070304,
+          "code": "RCI",
+          "name": "Royal Caribbean International"
+        },
+        "liteSupplier": {
+          "code": "RCI",
+          "name": "Royal Caribbean International"
+        },
+        "internal": {
+          "id": -1,
+          "version": 0
+        },
+        "external": {
+          "id": "37",
+          "bookingRef": "3027953",
+          "additionalAttributes": [
+            {
+              "name": "H2H_NAME",
+              "values": [
+                "Traveltek"
+              ]
+            }
+          ]
+        }
+      },
+      "choices": [
+        {
+          "categories": [
+            {
+              "choiceGroupId": 0,
+              "count": 1,
+              "code": "2V",
+              "superCategoryCode": "inside",
+              "fareDetail": {
+                "code": "",
+                "promotionDetails": []
+              },
+              "travellerInfo": {
+                "adult": 1,
+                "child": 0,
+                "infant": 0,
+                "travellers": [
+                  {
+                    "no": 1,
+                    "lead": false,
+                    "driver": false,
+                    "activeForBooking": false,
+                    "refuseInsurance": false,
+                    "profile": {
+                      "type": "A",
+                      "systemQuotedDate": "1994-07-27",
+                      "dobUnknown": true,
+                      "age": 30,
+                      "vip": false,
+                      "smoker": false,
+                      "dummy": false
+                    },
+                    "infantSeatRequired": false,
+                    "primaryPpForBooking": false,
+                    "endorsedPpForBooking": false,
+                    "endorsedPassengerNo": 0,
+                    "allocatedForBooking": false
+                  }
+                ]
+              },
+              "selectedCabin": {
+                "categoryCode": "2V",
+                "fareCode": "",
+                "maxOccupancy": 0,
+                "deckNo": 0,
+                "number": "3247",
+                "selectedBedCode": "together",
+                "selectedTableSize": "",
+                "mealPlan": "N/A",
+                "selectedDiningSeating": {
+                  "code": ""
+                },
+                "properties": [],
+                "deckName": "3",
+                "onBoardCredit": 0,
+                "onBoardCreditCurrency": "",
+                "isPrePaidGratuities": false,
+                "prePaidGratuities": false
+              },
+              "tableSizes": [],
+              "diningSeatings": [],
+              "cabins": [],
+              "decks": [],
+              "bedCodes": []
+            }
+          ],
+          "rate": {
+            "discount": 0,
+            "price": 2419.52,
+            "priceWithTax": 2419.52,
+            "tax": 0,
+            "commission": 0,
+            "commissionPercentage": 0,
+            "priceWithoutCommission": 0,
+            "itemSuppliemntPrice": 0,
+            "amendmentCharge": 0,
+            "cancellationCharge": 0,
+            "cnxPrice": 0,
+            "sellingToBaseExchangeRate": 0,
+            "basePrice": 0,
+            "manualCommission": false,
+            "itemDiscount": 0,
+            "totalItemFeeBase": 0,
+            "totalItemFee": 0,
+            "totalTaxBase": 0,
+            "totalTax": 0,
+            "totalNettBookingTax": 0
+          },
+          "discounts": [],
+          "supplements": [],
+          "additionalRequirements": []
+        }
+      ],
+      "rate": {
+        "discount": 0,
+        "price": 2419.52,
+        "priceWithTax": 2419.52,
+        "tax": 0,
+        "commission": 2419.52,
+        "commissionPercentage": 100,
+        "cost": {
+          "cost": 0,
+          "costInContract": 0,
+          "totalCost": 0,
+          "totalCostInContract": 0,
+          "totalTaxCost": 0,
+          "agreedCostInContract": 0,
+          "costInContractAdjustment": 0,
+          "contractToSellingExcRate": 1,
+          "currencyInContract": "USD",
+          "contractToBaseExRate": 1,
+          "amendmentCost": 0,
+          "cnxCost": 0,
+          "supplimentCost": 0,
+          "itemDiscountCost": 0,
+          "costWithTax": 0,
+          "costWithoutTax": 0
+        },
+        "rateDetail": {
+          "commission": 0,
+          "deposit": 0,
+          "balanceDue": 2419.52,
+          "netPrice": 0
+        },
+        "additionalRateInfo": {
+          "grossAdult": 2419.52,
+          "grossChild": 0,
+          "grossInfant": 0,
+          "nettAdult": 0,
+          "nettChild": 0,
+          "nettInfant": 0,
+          "adultPerPerson": 0,
+          "childPerPerson": 0,
+          "infantPerPerson": 0,
+          "ecPrice": 0,
+          "lcPrice": 0,
+          "extraNightPrice": 0,
+          "nonCommissionablePrice": 0
+        },
+        "travellerRateBreakdown": [
+          {
+            "travellerNo": 1,
+            "servicePaxType": "A",
+            "price": 2419.52,
+            "tax": 0,
+            "priceWithTax": 2419.52,
+            "cost": 0
+          }
+        ],
+        "priceWithoutCommission": 0,
+        "itemSuppliemntPrice": 0,
+        "amendmentCharge": 0,
+        "cancellationCharge": 0,
+        "cnxPrice": 0,
+        "sellingToBaseExchangeRate": 0.6547,
+        "basePrice": 3695.62,
+        "currencyInContract": "USD",
+        "manualCommission": true,
+        "itemDiscount": 0,
+        "totalItemFeeBase": 0,
+        "totalItemFee": 0,
+        "totalTaxBase": 0,
+        "totalTax": 0,
+        "totalNettBookingTax": 0,
+        "unitPriced": true,
+        "wholesaleCommission": 0,
+        "totalSupplementPrice ": 0
+      },
+      "travellerInfo": {
+        "adult": 1,
+        "child": 0,
+        "infant": 0,
+        "travellers": [
+          {
+            "key": "MS#KERRY#FOSBRE#1",
+            "no": 1,
+            "lead": true,
+            "driver": false,
+            "activeForBooking": true,
+            "refuseInsurance": false,
+            "profile": {
+              "title": "Ms",
+              "firstName": "Kerry",
+              "lastName": "Fosbre",
+              "type": "A",
+              "subType": "A",
+              "systemQuotedDate": "1994-07-27",
+              "dobUnknown": true,
+              "age": 30,
+              "gender": "F",
+              "vip": false,
+              "smoker": false,
+              "memberships": [],
+              "primaryPpLastName": "",
+              "frequentFlyerNumbers": [],
+              "addresses": [
+                {
+                  "no": 0,
+                  "main": true,
+                  "category": 0,
+                  "external": false,
+                  "contacts": [
+                    {
+                      "contactNo": 4,
+                      "contactType": "Telephone",
+                      "value": "+17323302611",
+                      "main": true,
+                      "preferred": true
+                    },
+                    {
+                      "contactNo": 3,
+                      "contactType": "E-mail",
+                      "value": "kfosbre@gmail.com",
+                      "main": true,
+                      "preferred": false
+                    }
+                  ]
+                }
+              ],
+              "dummy": false
+            },
+            "infantSeatRequired": false,
+            "reference": {
+              "key": "MS#KERRY#FOSBRE#1",
+              "externalRefs": [
+                {
+                  "name": "ExternalProfileRef",
+                  "value": "US-55620E"
+                }
+              ]
+            },
+            "primaryPpForBooking": false,
+            "endorsedPpForBooking": false,
+            "endorsedPassengerNo": 0,
+            "allocatedForBooking": false
+          }
+        ]
+      },
+      "internal": {
+        "supplierPaymentInfo": {
+          "supplierName": "Royal Caribbean International",
+          "supplierCode": "RCI",
+          "postPaymentDate": "2024-08-26",
+          "prePayment": 0,
+          "postPayment": 0,
+          "status": 10
+        },
+        "supplierCommunicationInfo": {
+          "notificationInfo": {
+            "supplierInformed": false
+          },
+          "confirmationInfo": {
+            "confirmationReceived": false
+          }
+        },
+        "markup": {
+          "itemMarkups": []
+        }
+      },
+      "content": {
+        "location": "/tc_images/CRU/",
+        "contentItems": []
+      },
+      "additionalContents": [],
+      "notes": [
+        {
+          "no": 2,
+          "type": "INVOICE",
+          "note": "penalties per cruise line",
+          "username": "750223",
+          "displayName": "Lisa O'Malley",
+          "dateModified": "2024-02-01T05:29:38-05:00[America/New_York]",
+          "systemGenerated": true,
+          "noteId": 2
+        },
+        {
+          "no": 1,
+          "type": "BOOKING",
+          "note": "penalties per cruise line",
+          "username": "750223",
+          "displayName": "Lisa O'Malley",
+          "dateModified": "2024-02-01T05:29:38-05:00[America/New_York]",
+          "systemGenerated": true,
+          "noteId": 1
+        }
+      ],
+      "charges": [],
+      "supplements": [],
+      "discounts": [],
+      "reservationProperties": [
+        {
+          "name": "bookedUserFullName",
+          "value": "Lisa O'Malley"
+        },
+        {
+          "name": "bookedClientCode",
+          "value": "705800"
+        },
+        {
+          "name": "bookedClientCategory",
+          "value": "RETAIL"
+        }
+      ],
+      "supplierInfo": {
+        "supplierId": 2070304,
+        "name": "Royal Caribbean International"
+      },
+      "bookedUser": "",
+      "bookedDate": "2024-02-01",
+      "bookedDateTimeWithTimeZone": "2024-02-01T05:29:38-05:00[America/New_York]",
+      "modifiedDate": "2024-02-01",
+      "modifiedDateTimeWithTimeZone": "2024-02-01T10:57:16Z[GMT]",
+      "taxes": [],
+      "taxInfo": {
+        "classification": "International",
+        "location": {
+          "stateCode": "BDA",
+          "stateName": "Barisal",
+          "countryCode": "BM",
+          "countryName": "Bermuda"
+        },
+        "taxes": []
+      },
+      "manualRateInfo": {
+        "adultCostInContract": 0,
+        "childCostInContract": 0,
+        "infantCostInContract": 0,
+        "grossAdultPerPerson": 2419.52,
+        "grossChildPerPerson": 2419.52,
+        "grossInfantPerPerson": 2419.52,
+        "nettAdultPerPerson": 0,
+        "nettChildPerPerson": 0,
+        "nettInfantPerPerson": 0,
+        "manualAddition": {
+          "adultPrice": 0,
+          "childPrice": 0,
+          "infantPrice": 0
+        },
+        "additionalCommissionInfo": {
+          "unitCost": 2419.52
+        }
+      },
+      "multiSource": false,
+      "categorySet": {
+        "categories": [
+          {
+            "choiceGroupId": 0,
+            "count": 1,
+            "code": "2V",
+            "superCategoryCode": "inside",
+            "fareDetail": {
+              "code": "",
+              "promotionDetails": []
+            },
+            "travellerInfo": {
+              "adult": 1,
+              "child": 0,
+              "infant": 0,
+              "travellers": [
+                {
+                  "no": 1,
+                  "lead": false,
+                  "driver": false,
+                  "activeForBooking": false,
+                  "refuseInsurance": false,
+                  "profile": {
+                    "type": "A",
+                    "systemQuotedDate": "1994-07-27",
+                    "dobUnknown": true,
+                    "age": 30,
+                    "vip": false,
+                    "smoker": false,
+                    "dummy": false
+                  },
+                  "infantSeatRequired": false,
+                  "primaryPpForBooking": false,
+                  "endorsedPpForBooking": false,
+                  "endorsedPassengerNo": 0,
+                  "allocatedForBooking": false
+                }
+              ]
+            },
+            "selectedCabin": {
+              "categoryCode": "2V",
+              "fareCode": "",
+              "maxOccupancy": 0,
+              "deckNo": 0,
+              "number": "3247",
+              "selectedBedCode": "together",
+              "selectedTableSize": "",
+              "mealPlan": "N/A",
+              "selectedDiningSeating": {
+                "code": ""
+              },
+              "properties": [],
+              "deckName": "3",
+              "onBoardCredit": 0,
+              "onBoardCreditCurrency": "",
+              "isPrePaidGratuities": false,
+              "prePaidGratuities": false
+            },
+            "tableSizes": [],
+            "diningSeatings": [],
+            "cabins": [],
+            "decks": [],
+            "bedCodes": []
+          }
+        ],
+        "rate": {
+          "discount": 0,
+          "price": 2419.52,
+          "priceWithTax": 2419.52,
+          "tax": 0,
+          "commission": 0,
+          "commissionPercentage": 0,
+          "priceWithoutCommission": 0,
+          "itemSuppliemntPrice": 0,
+          "amendmentCharge": 0,
+          "cancellationCharge": 0,
+          "cnxPrice": 0,
+          "sellingToBaseExchangeRate": 0,
+          "basePrice": 0,
+          "manualCommission": false,
+          "itemDiscount": 0,
+          "totalItemFeeBase": 0,
+          "totalItemFee": 0,
+          "totalTaxBase": 0,
+          "totalTax": 0,
+          "totalNettBookingTax": 0
+        },
+        "discounts": [],
+        "supplements": [],
+        "cancellationRules": [
+          {
+            "ruleNo": 0,
+            "days": 0,
+            "fromDate": "2024-02-02",
+            "toDate": "2024-04-27",
+            "charge": 250,
+            "calculatedCharge": 250,
+            "totalPrice": 0,
+            "chargeType": "A",
+            "manuallyAdded": null,
+            "fromDateTimeWithTimeZone": null,
+            "toDateTimeWithTimeZone": null
+          },
+          {
+            "ruleNo": 0,
+            "days": 0,
+            "fromDate": "2024-04-28",
+            "toDate": "2024-07-28",
+            "charge": 2419.52,
+            "calculatedCharge": 2419.52,
+            "totalPrice": 0,
+            "chargeType": "A",
+            "manuallyAdded": null,
+            "fromDateTimeWithTimeZone": null,
+            "toDateTimeWithTimeZone": null
+          }
+        ],
+        "additionalRequirements": []
+      },
+      "additionalFares": [],
+      "additionalManualRateInfo": {
+        "nonCommisionable": {
+          "adultCost": 0,
+          "childCost": 0,
+          "infantCost": 0,
+          "pppnAdultCost": 0,
+          "pppnChildCost": 0,
+          "pppnInfantCost": 0,
+          "unitCost": 0
+        },
+        "prePaidGratuity": {
+          "adultCost": 0,
+          "childCost": 0,
+          "infantCost": 0,
+          "pppnAdultCost": 0,
+          "pppnChildCost": 0,
+          "pppnInfantCost": 0,
+          "unitCost": 0
+        },
+        "taxesAndFees": {
+          "adultCost": 0,
+          "childCost": 0,
+          "infantCost": 0,
+          "pppnAdultCost": 0,
+          "pppnChildCost": 0,
+          "pppnInfantCost": 0,
+          "unitCost": 0
+        },
+        "supplierDiscounts": {
+          "adultCost": 0,
+          "childCost": 0,
+          "infantCost": 0,
+          "pppnAdultCost": 0,
+          "pppnChildCost": 0,
+          "pppnInfantCost": 0,
+          "unitCost": 0
+        },
+        "cruiseFare": {
+          "adultCost": 0,
+          "childCost": 0,
+          "infantCost": 0,
+          "pppnAdultCost": 0,
+          "pppnChildCost": 0,
+          "pppnInfantCost": 0,
+          "unitCost": 2419.52
+        }
+      },
+      "cruiseItineraryItems": []
+    }
+  },
+  "description": "Travelbox cruise product from cart object",
+  "properties": {
+    "productCode": {
+      "type": "string",
+      "description": "```json json_schema\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    }\n  }\n}\n```"
+    },
+    "productKey": {
+      "type": "string"
+    },
+    "selected": {
+      "type": "boolean"
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "availabilityStatus": {
+          "type": "string"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "productType": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "highlight": {
+          "type": "string"
+        },
+        "serviceStartDate": {
+          "type": "string"
+        },
+        "serviceEndDate": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "durationType": {
+          "type": "string"
+        },
+        "travelDates": {
+          "type": "object",
+          "properties": {
+            "startDate": {
+              "type": "string"
+            },
+            "endDate": {
+              "type": "string"
+            }
+          }
+        },
+        "travelDuration": {
+          "type": "object",
+          "properties": {
+            "duration": {
+              "type": "integer"
+            },
+            "travelDuration": {
+              "type": "integer"
+            },
+            "durationType": {
+              "type": "string"
+            }
+          }
+        },
+        "recommended": {
+          "type": "boolean"
+        },
+        "specialOffer": {
+          "type": "boolean"
+        },
+        "itemSource": {
+          "type": "string"
+        },
+        "totalPrice": {
+          "type": "number"
+        },
+        "discount": {
+          "type": "integer"
+        },
+        "priceBeforeDiscount": {
+          "type": "number"
+        },
+        "startTime": {
+          "type": "string"
+        },
+        "endTime": {
+          "type": "string"
+        },
+        "travelTimes": {
+          "type": "object",
+          "properties": {
+            "startTime": {
+              "type": "string"
+            },
+            "endTime": {
+              "type": "string"
+            },
+            "embarkationTime": {
+              "type": "integer"
+            }
+          }
+        },
+        "totalAmendCharges": {
+          "type": "integer"
+        },
+        "totalCancellationCharges": {
+          "type": "integer"
+        },
+        "vipBooking": {
+          "type": "boolean"
+        }
+      }
+    },
+    "detail": {
+      "type": "object",
+      "properties": {
+        "ship": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "cruiseDestination": {
+          "type": "object"
+        },
+        "cruiseLine": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "departurePort": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "arrivalPort": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "departureDestination": {
+          "type": "object",
+          "properties": {
+            "cityCode": {
+              "type": "string"
+            },
+            "cityName": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            }
+          }
+        },
+        "arrivalDestination": {
+          "type": "object",
+          "properties": {
+            "cityCode": {
+              "type": "string"
+            },
+            "cityName": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            }
+          }
+        },
+        "itinerary": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "itineraryDetail": {
+              "type": "string"
+            },
+            "shipName": {
+              "type": "string"
+            },
+            "shipNo": {
+              "type": "integer"
+            },
+            "duration": {
+              "type": "integer"
+            },
+            "sailingStartNextDay": {
+              "type": "boolean"
+            },
+            "itineraryItems": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "itemNo": {
+                    "type": "integer"
+                  },
+                  "fromDay": {
+                    "type": "integer"
+                  },
+                  "toDay": {
+                    "type": "integer"
+                  },
+                  "departureTime": {
+                    "type": "integer"
+                  },
+                  "boardTime": {
+                    "type": "integer"
+                  },
+                  "arrivalTime": {
+                    "type": "integer"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "port": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "nearestAirports": {
+                        "type": "array",
+                        "items": {
+                          "type": "object"
+                        }
+                      },
+                      "nearestCities": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "code": {
+                              "type": "string"
+                            },
+                            "preferred": {
+                              "type": "boolean"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "h2hDepartureDate": {
+                    "type": "string"
+                  },
+                  "h2hArrivalDate": {
+                    "type": "string"
+                  },
+                  "h2HDepartureDate": {
+                    "type": "string"
+                  },
+                  "h2HArrivalDate": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "retrievedBooking": {
+          "type": "boolean"
+        },
+        "superCategories": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "airCitySelected": {
+          "type": "boolean"
+        },
+        "destination": {
+          "type": "object",
+          "properties": {
+            "countryName": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalInfo": {
+          "type": "object",
+          "properties": {
+            "nonRefundable": {
+              "type": "boolean"
+            },
+            "nonAmendable": {
+              "type": "boolean"
+            },
+            "provisional": {
+              "type": "boolean"
+            },
+            "preference": {
+              "type": "integer"
+            },
+            "bookedAsQuote": {
+              "type": "boolean"
+            },
+            "activeForQuote": {
+              "type": "boolean"
+            },
+            "paySupplierDirect": {
+              "type": "boolean"
+            },
+            "nonCommissionableDiscount": {
+              "type": "integer"
+            }
+          }
+        },
+        "paymentScheduleInfo": {
+          "type": "object",
+          "properties": {
+            "manuallyOverridable": {
+              "type": "boolean"
+            },
+            "manuallyUpdated": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "type": "object",
+          "properties": {
+            "holidayTemplateId": {
+              "type": "integer"
+            },
+            "compositionId": {
+              "type": "integer"
+            },
+            "itineraryItemNo": {
+              "type": "integer"
+            },
+            "cfScore": {
+              "type": "integer"
+            },
+            "gridNo": {
+              "type": "integer"
+            },
+            "gridType": {
+              "type": "integer"
+            },
+            "itineraryNo": {
+              "type": "integer"
+            },
+            "itineraryOrder": {
+              "type": "integer"
+            },
+            "holidayId": {
+              "type": "integer"
+            },
+            "pkgId": {
+              "type": "integer"
+            },
+            "resultNo": {
+              "type": "integer"
+            },
+            "swapItemNo": {
+              "type": "integer"
+            },
+            "promo": {
+              "type": "boolean"
+            },
+            "optionalItineraryItem": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "supplier": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "liteSupplier": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "internal": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "version": {
+              "type": "integer"
+            }
+          }
+        },
+        "external": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "bookingRef": {
+              "type": "string"
+            },
+            "additionalAttributes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "values": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "choiceGroupId": {
+                  "type": "integer"
+                },
+                "count": {
+                  "type": "integer"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "superCategoryCode": {
+                  "type": "string"
+                },
+                "fareDetail": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string"
+                    },
+                    "promotionDetails": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                },
+                "travellerInfo": {
+                  "type": "object",
+                  "properties": {
+                    "adult": {
+                      "type": "integer"
+                    },
+                    "child": {
+                      "type": "integer"
+                    },
+                    "infant": {
+                      "type": "integer"
+                    },
+                    "travellers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "no": {
+                            "type": "integer"
+                          },
+                          "lead": {
+                            "type": "boolean"
+                          },
+                          "driver": {
+                            "type": "boolean"
+                          },
+                          "activeForBooking": {
+                            "type": "boolean"
+                          },
+                          "refuseInsurance": {
+                            "type": "boolean"
+                          },
+                          "profile": {
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "type": "string"
+                              },
+                              "systemQuotedDate": {
+                                "type": "string"
+                              },
+                              "dobUnknown": {
+                                "type": "boolean"
+                              },
+                              "age": {
+                                "type": "integer"
+                              },
+                              "vip": {
+                                "type": "boolean"
+                              },
+                              "smoker": {
+                                "type": "boolean"
+                              },
+                              "dummy": {
+                                "type": "boolean"
+                              }
+                            }
+                          },
+                          "infantSeatRequired": {
+                            "type": "boolean"
+                          },
+                          "primaryPpForBooking": {
+                            "type": "boolean"
+                          },
+                          "endorsedPpForBooking": {
+                            "type": "boolean"
+                          },
+                          "endorsedPassengerNo": {
+                            "type": "integer"
+                          },
+                          "allocatedForBooking": {
+                            "type": "boolean"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "selectedCabin": {
+                  "type": "object",
+                  "properties": {
+                    "categoryCode": {
+                      "type": "string"
+                    },
+                    "fareCode": {
+                      "type": "string"
+                    },
+                    "maxOccupancy": {
+                      "type": "integer"
+                    },
+                    "deckNo": {
+                      "type": "integer"
+                    },
+                    "number": {
+                      "type": "string"
+                    },
+                    "selectedBedCode": {
+                      "type": "string"
+                    },
+                    "selectedTableSize": {
+                      "type": "string"
+                    },
+                    "mealPlan": {
+                      "type": "string"
+                    },
+                    "selectedDiningSeating": {
+                      "type": "object",
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "properties": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    "deckName": {
+                      "type": "string"
+                    },
+                    "onBoardCredit": {
+                      "type": "integer"
+                    },
+                    "onBoardCreditCurrency": {
+                      "type": "string"
+                    },
+                    "isPrePaidGratuities": {
+                      "type": "boolean"
+                    },
+                    "prePaidGratuities": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "tableSizes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                },
+                "diningSeatings": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                },
+                "cabins": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                },
+                "decks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                },
+                "bedCodes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "rate": {
+            "type": "object",
+            "properties": {
+              "discount": {
+                "type": "integer"
+              },
+              "price": {
+                "type": "number"
+              },
+              "priceWithTax": {
+                "type": "number"
+              },
+              "tax": {
+                "type": "integer"
+              },
+              "commission": {
+                "type": "integer"
+              },
+              "commissionPercentage": {
+                "type": "integer"
+              },
+              "priceWithoutCommission": {
+                "type": "integer"
+              },
+              "itemSuppliemntPrice": {
+                "type": "integer"
+              },
+              "amendmentCharge": {
+                "type": "integer"
+              },
+              "cancellationCharge": {
+                "type": "integer"
+              },
+              "cnxPrice": {
+                "type": "integer"
+              },
+              "sellingToBaseExchangeRate": {
+                "type": "integer"
+              },
+              "basePrice": {
+                "type": "integer"
+              },
+              "manualCommission": {
+                "type": "boolean"
+              },
+              "itemDiscount": {
+                "type": "integer"
+              },
+              "totalItemFeeBase": {
+                "type": "integer"
+              },
+              "totalItemFee": {
+                "type": "integer"
+              },
+              "totalTaxBase": {
+                "type": "integer"
+              },
+              "totalTax": {
+                "type": "integer"
+              },
+              "totalNettBookingTax": {
+                "type": "integer"
+              }
+            }
+          },
+          "discounts": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "supplements": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "additionalRequirements": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "rate": {
+      "type": "object",
+      "properties": {
+        "discount": {
+          "type": "integer"
+        },
+        "price": {
+          "type": "number"
+        },
+        "priceWithTax": {
+          "type": "number"
+        },
+        "tax": {
+          "type": "integer"
+        },
+        "commission": {
+          "type": "number"
+        },
+        "commissionPercentage": {
+          "type": "integer"
+        },
+        "cost": {
+          "type": "object",
+          "properties": {
+            "cost": {
+              "type": "integer"
+            },
+            "costInContract": {
+              "type": "integer"
+            },
+            "totalCost": {
+              "type": "integer"
+            },
+            "totalCostInContract": {
+              "type": "integer"
+            },
+            "totalTaxCost": {
+              "type": "integer"
+            },
+            "agreedCostInContract": {
+              "type": "integer"
+            },
+            "costInContractAdjustment": {
+              "type": "integer"
+            },
+            "contractToSellingExcRate": {
+              "type": "integer"
+            },
+            "currencyInContract": {
+              "type": "string"
+            },
+            "contractToBaseExRate": {
+              "type": "integer"
+            },
+            "amendmentCost": {
+              "type": "integer"
+            },
+            "cnxCost": {
+              "type": "integer"
+            },
+            "supplimentCost": {
+              "type": "integer"
+            },
+            "itemDiscountCost": {
+              "type": "integer"
+            },
+            "costWithTax": {
+              "type": "integer"
+            },
+            "costWithoutTax": {
+              "type": "integer"
+            }
+          }
+        },
+        "rateDetail": {
+          "type": "object",
+          "properties": {
+            "commission": {
+              "type": "integer"
+            },
+            "deposit": {
+              "type": "integer"
+            },
+            "balanceDue": {
+              "type": "number"
+            },
+            "netPrice": {
+              "type": "integer"
+            }
+          }
+        },
+        "additionalRateInfo": {
+          "type": "object",
+          "properties": {
+            "grossAdult": {
+              "type": "number"
+            },
+            "grossChild": {
+              "type": "integer"
+            },
+            "grossInfant": {
+              "type": "integer"
+            },
+            "nettAdult": {
+              "type": "integer"
+            },
+            "nettChild": {
+              "type": "integer"
+            },
+            "nettInfant": {
+              "type": "integer"
+            },
+            "adultPerPerson": {
+              "type": "integer"
+            },
+            "childPerPerson": {
+              "type": "integer"
+            },
+            "infantPerPerson": {
+              "type": "integer"
+            },
+            "ecPrice": {
+              "type": "integer"
+            },
+            "lcPrice": {
+              "type": "integer"
+            },
+            "extraNightPrice": {
+              "type": "integer"
+            },
+            "nonCommissionablePrice": {
+              "type": "integer"
+            }
+          }
+        },
+        "travellerRateBreakdown": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "travellerNo": {
+                "type": "integer"
+              },
+              "servicePaxType": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              },
+              "tax": {
+                "type": "integer"
+              },
+              "priceWithTax": {
+                "type": "number"
+              },
+              "cost": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "priceWithoutCommission": {
+          "type": "integer"
+        },
+        "itemSuppliemntPrice": {
+          "type": "integer"
+        },
+        "amendmentCharge": {
+          "type": "integer"
+        },
+        "cancellationCharge": {
+          "type": "integer"
+        },
+        "cnxPrice": {
+          "type": "integer"
+        },
+        "sellingToBaseExchangeRate": {
+          "type": "number"
+        },
+        "basePrice": {
+          "type": "number"
+        },
+        "currencyInContract": {
+          "type": "string"
+        },
+        "manualCommission": {
+          "type": "boolean"
+        },
+        "itemDiscount": {
+          "type": "integer"
+        },
+        "totalItemFeeBase": {
+          "type": "integer"
+        },
+        "totalItemFee": {
+          "type": "integer"
+        },
+        "totalTaxBase": {
+          "type": "integer"
+        },
+        "totalTax": {
+          "type": "integer"
+        },
+        "totalNettBookingTax": {
+          "type": "integer"
+        },
+        "unitPriced": {
+          "type": "boolean"
+        },
+        "wholesaleCommission": {
+          "type": "integer"
+        },
+        "totalSupplementPrice ": {
+          "type": "integer"
+        }
+      }
+    },
+    "travellerInfo": {
+      "type": "object",
+      "properties": {
+        "adult": {
+          "type": "integer"
+        },
+        "child": {
+          "type": "integer"
+        },
+        "infant": {
+          "type": "integer"
+        },
+        "travellers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string"
+              },
+              "no": {
+                "type": "integer"
+              },
+              "lead": {
+                "type": "boolean"
+              },
+              "driver": {
+                "type": "boolean"
+              },
+              "activeForBooking": {
+                "type": "boolean"
+              },
+              "refuseInsurance": {
+                "type": "boolean"
+              },
+              "profile": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "firstName": {
+                    "type": "string"
+                  },
+                  "lastName": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "subType": {
+                    "type": "string"
+                  },
+                  "systemQuotedDate": {
+                    "type": "string"
+                  },
+                  "dobUnknown": {
+                    "type": "boolean"
+                  },
+                  "age": {
+                    "type": "integer"
+                  },
+                  "gender": {
+                    "type": "string"
+                  },
+                  "vip": {
+                    "type": "boolean"
+                  },
+                  "smoker": {
+                    "type": "boolean"
+                  },
+                  "memberships": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  },
+                  "primaryPpLastName": {
+                    "type": "string"
+                  },
+                  "frequentFlyerNumbers": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  },
+                  "addresses": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "no": {
+                          "type": "integer"
+                        },
+                        "main": {
+                          "type": "boolean"
+                        },
+                        "category": {
+                          "type": "integer"
+                        },
+                        "external": {
+                          "type": "boolean"
+                        },
+                        "contacts": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "contactNo": {
+                                "type": "integer"
+                              },
+                              "contactType": {
+                                "type": "string"
+                              },
+                              "value": {
+                                "type": "string"
+                              },
+                              "main": {
+                                "type": "boolean"
+                              },
+                              "preferred": {
+                                "type": "boolean"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "dummy": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "infantSeatRequired": {
+                "type": "boolean"
+              },
+              "reference": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string"
+                  },
+                  "externalRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "primaryPpForBooking": {
+                "type": "boolean"
+              },
+              "endorsedPpForBooking": {
+                "type": "boolean"
+              },
+              "endorsedPassengerNo": {
+                "type": "integer"
+              },
+              "allocatedForBooking": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "internal": {
+      "type": "object",
+      "properties": {
+        "supplierPaymentInfo": {
+          "type": "object",
+          "properties": {
+            "supplierName": {
+              "type": "string"
+            },
+            "supplierCode": {
+              "type": "string"
+            },
+            "postPaymentDate": {
+              "type": "string"
+            },
+            "prePayment": {
+              "type": "integer"
+            },
+            "postPayment": {
+              "type": "integer"
+            },
+            "status": {
+              "type": "integer"
+            }
+          }
+        },
+        "supplierCommunicationInfo": {
+          "type": "object",
+          "properties": {
+            "notificationInfo": {
+              "type": "object",
+              "properties": {
+                "supplierInformed": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "confirmationInfo": {
+              "type": "object",
+              "properties": {
+                "confirmationReceived": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "markup": {
+          "type": "object",
+          "properties": {
+            "itemMarkups": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string"
+        },
+        "contentItems": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "additionalContents": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "no": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          },
+          "displayName": {
+            "type": "string"
+          },
+          "dateModified": {
+            "type": "string"
+          },
+          "systemGenerated": {
+            "type": "boolean"
+          },
+          "noteId": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "charges": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "supplements": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "discounts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "reservationProperties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "supplierInfo": {
+      "type": "object",
+      "properties": {
+        "supplierId": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "bookedUser": {
+      "type": "string"
+    },
+    "bookedDate": {
+      "type": "string"
+    },
+    "bookedDateTimeWithTimeZone": {
+      "type": "string"
+    },
+    "modifiedDate": {
+      "type": "string"
+    },
+    "modifiedDateTimeWithTimeZone": {
+      "type": "string"
+    },
+    "taxes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "taxInfo": {
+      "type": "object",
+      "properties": {
+        "classification": {
+          "type": "string"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "stateCode": {
+              "type": "string"
+            },
+            "stateName": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "countryName": {
+              "type": "string"
+            }
+          }
+        },
+        "taxes": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "manualRateInfo": {
+      "type": "object",
+      "properties": {
+        "adultCostInContract": {
+          "type": "integer"
+        },
+        "childCostInContract": {
+          "type": "integer"
+        },
+        "infantCostInContract": {
+          "type": "integer"
+        },
+        "grossAdultPerPerson": {
+          "type": "number"
+        },
+        "grossChildPerPerson": {
+          "type": "number"
+        },
+        "grossInfantPerPerson": {
+          "type": "number"
+        },
+        "nettAdultPerPerson": {
+          "type": "integer"
+        },
+        "nettChildPerPerson": {
+          "type": "integer"
+        },
+        "nettInfantPerPerson": {
+          "type": "integer"
+        },
+        "manualAddition": {
+          "type": "object",
+          "properties": {
+            "adultPrice": {
+              "type": "integer"
+            },
+            "childPrice": {
+              "type": "integer"
+            },
+            "infantPrice": {
+              "type": "integer"
+            }
+          }
+        },
+        "additionalCommissionInfo": {
+          "type": "object",
+          "properties": {
+            "unitCost": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "multiSource": {
+      "type": "boolean"
+    },
+    "categorySet": {
+      "type": "object",
+      "properties": {
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "choiceGroupId": {
+                "type": "integer"
+              },
+              "count": {
+                "type": "integer"
+              },
+              "code": {
+                "type": "string"
+              },
+              "superCategoryCode": {
+                "type": "string"
+              },
+              "fareDetail": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "type": "string"
+                  },
+                  "promotionDetails": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  }
+                }
+              },
+              "travellerInfo": {
+                "type": "object",
+                "properties": {
+                  "adult": {
+                    "type": "integer"
+                  },
+                  "child": {
+                    "type": "integer"
+                  },
+                  "infant": {
+                    "type": "integer"
+                  },
+                  "travellers": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "no": {
+                          "type": "integer"
+                        },
+                        "lead": {
+                          "type": "boolean"
+                        },
+                        "driver": {
+                          "type": "boolean"
+                        },
+                        "activeForBooking": {
+                          "type": "boolean"
+                        },
+                        "refuseInsurance": {
+                          "type": "boolean"
+                        },
+                        "profile": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string"
+                            },
+                            "systemQuotedDate": {
+                              "type": "string"
+                            },
+                            "dobUnknown": {
+                              "type": "boolean"
+                            },
+                            "age": {
+                              "type": "integer"
+                            },
+                            "vip": {
+                              "type": "boolean"
+                            },
+                            "smoker": {
+                              "type": "boolean"
+                            },
+                            "dummy": {
+                              "type": "boolean"
+                            }
+                          }
+                        },
+                        "infantSeatRequired": {
+                          "type": "boolean"
+                        },
+                        "primaryPpForBooking": {
+                          "type": "boolean"
+                        },
+                        "endorsedPpForBooking": {
+                          "type": "boolean"
+                        },
+                        "endorsedPassengerNo": {
+                          "type": "integer"
+                        },
+                        "allocatedForBooking": {
+                          "type": "boolean"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "selectedCabin": {
+                "type": "object",
+                "properties": {
+                  "categoryCode": {
+                    "type": "string"
+                  },
+                  "fareCode": {
+                    "type": "string"
+                  },
+                  "maxOccupancy": {
+                    "type": "integer"
+                  },
+                  "deckNo": {
+                    "type": "integer"
+                  },
+                  "number": {
+                    "type": "string"
+                  },
+                  "selectedBedCode": {
+                    "type": "string"
+                  },
+                  "selectedTableSize": {
+                    "type": "string"
+                  },
+                  "mealPlan": {
+                    "type": "string"
+                  },
+                  "selectedDiningSeating": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "properties": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  },
+                  "deckName": {
+                    "type": "string"
+                  },
+                  "onBoardCredit": {
+                    "type": "integer"
+                  },
+                  "onBoardCreditCurrency": {
+                    "type": "string"
+                  },
+                  "isPrePaidGratuities": {
+                    "type": "boolean"
+                  },
+                  "prePaidGratuities": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "tableSizes": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "diningSeatings": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "cabins": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "decks": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "bedCodes": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "rate": {
+          "type": "object",
+          "properties": {
+            "discount": {
+              "type": "integer"
+            },
+            "price": {
+              "type": "number"
+            },
+            "priceWithTax": {
+              "type": "number"
+            },
+            "tax": {
+              "type": "integer"
+            },
+            "commission": {
+              "type": "integer"
+            },
+            "commissionPercentage": {
+              "type": "integer"
+            },
+            "priceWithoutCommission": {
+              "type": "integer"
+            },
+            "itemSuppliemntPrice": {
+              "type": "integer"
+            },
+            "amendmentCharge": {
+              "type": "integer"
+            },
+            "cancellationCharge": {
+              "type": "integer"
+            },
+            "cnxPrice": {
+              "type": "integer"
+            },
+            "sellingToBaseExchangeRate": {
+              "type": "integer"
+            },
+            "basePrice": {
+              "type": "integer"
+            },
+            "manualCommission": {
+              "type": "boolean"
+            },
+            "itemDiscount": {
+              "type": "integer"
+            },
+            "totalItemFeeBase": {
+              "type": "integer"
+            },
+            "totalItemFee": {
+              "type": "integer"
+            },
+            "totalTaxBase": {
+              "type": "integer"
+            },
+            "totalTax": {
+              "type": "integer"
+            },
+            "totalNettBookingTax": {
+              "type": "integer"
+            }
+          }
+        },
+        "discounts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "supplements": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "cancellationRules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ruleNo": {
+                "type": "integer"
+              },
+              "days": {
+                "type": "integer"
+              },
+              "fromDate": {
+                "type": "string"
+              },
+              "toDate": {
+                "type": "string"
+              },
+              "charge": {
+                "type": [
+                  "integer",
+                  "number"
+                ]
+              },
+              "calculatedCharge": {
+                "type": [
+                  "integer",
+                  "number"
+                ]
+              },
+              "totalPrice": {
+                "type": "integer"
+              },
+              "chargeType": {
+                "type": "string"
+              },
+              "manuallyAdded": {
+                "type": "null"
+              },
+              "fromDateTimeWithTimeZone": {
+                "type": "null"
+              },
+              "toDateTimeWithTimeZone": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        "additionalRequirements": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "additionalFares": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "additionalManualRateInfo": {
+      "type": "object",
+      "properties": {
+        "nonCommisionable": {
+          "type": "object",
+          "properties": {
+            "adultCost": {
+              "type": "integer"
+            },
+            "childCost": {
+              "type": "integer"
+            },
+            "infantCost": {
+              "type": "integer"
+            },
+            "pppnAdultCost": {
+              "type": "integer"
+            },
+            "pppnChildCost": {
+              "type": "integer"
+            },
+            "pppnInfantCost": {
+              "type": "integer"
+            },
+            "unitCost": {
+              "type": "integer"
+            }
+          }
+        },
+        "prePaidGratuity": {
+          "type": "object",
+          "properties": {
+            "adultCost": {
+              "type": "integer"
+            },
+            "childCost": {
+              "type": "integer"
+            },
+            "infantCost": {
+              "type": "integer"
+            },
+            "pppnAdultCost": {
+              "type": "integer"
+            },
+            "pppnChildCost": {
+              "type": "integer"
+            },
+            "pppnInfantCost": {
+              "type": "integer"
+            },
+            "unitCost": {
+              "type": "integer"
+            }
+          }
+        },
+        "taxesAndFees": {
+          "type": "object",
+          "properties": {
+            "adultCost": {
+              "type": "integer"
+            },
+            "childCost": {
+              "type": "integer"
+            },
+            "infantCost": {
+              "type": "integer"
+            },
+            "pppnAdultCost": {
+              "type": "integer"
+            },
+            "pppnChildCost": {
+              "type": "integer"
+            },
+            "pppnInfantCost": {
+              "type": "integer"
+            },
+            "unitCost": {
+              "type": "integer"
+            }
+          }
+        },
+        "supplierDiscounts": {
+          "type": "object",
+          "properties": {
+            "adultCost": {
+              "type": "integer"
+            },
+            "childCost": {
+              "type": "integer"
+            },
+            "infantCost": {
+              "type": "integer"
+            },
+            "pppnAdultCost": {
+              "type": "integer"
+            },
+            "pppnChildCost": {
+              "type": "integer"
+            },
+            "pppnInfantCost": {
+              "type": "integer"
+            },
+            "unitCost": {
+              "type": "integer"
+            }
+          }
+        },
+        "cruiseFare": {
+          "type": "object",
+          "properties": {
+            "adultCost": {
+              "type": "integer"
+            },
+            "childCost": {
+              "type": "integer"
+            },
+            "infantCost": {
+              "type": "integer"
+            },
+            "pppnAdultCost": {
+              "type": "integer"
+            },
+            "pppnChildCost": {
+              "type": "integer"
+            },
+            "pppnInfantCost": {
+              "type": "integer"
+            },
+            "unitCost": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "cruiseItineraryItems": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}
